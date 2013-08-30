@@ -7,6 +7,12 @@ Add sematic web to octopress with:
 - [http://schema.org/](http://schema.org/)
 - [Twitter Cards](https://dev.twitter.com/docs/cards)
 
+Checking tools:
+
+- https://developers.facebook.com/tools/debug
+- http://www.google.com/webmasters/tools/richsnippets
+- https://dev.twitter.com/docs/cards/validation/validator
+
 Usage
 -----
 

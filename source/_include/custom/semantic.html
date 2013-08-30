@@ -1,0 +1,4 @@
+{% capture title %}{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}{% endcapture %}
+{% capture cover %}{% if page.cover %}{{page.cover}}{% elsif site.cover %}{{site.cover}}{% endif %}{% endcapture %}
+{% include opengraph.html %}
+{% include twitter_cards.html %}

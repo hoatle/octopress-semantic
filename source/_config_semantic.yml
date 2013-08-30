@@ -1,0 +1,10 @@
+# semantic options
+
+# the site cover, example: /images/teracy_logo.png
+cover:
+
+# for facebook insights
+semantic_fb_app_id:
+
+# for facebook insights
+semantic_fb_admins:
