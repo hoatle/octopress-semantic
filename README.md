@@ -7,10 +7,24 @@ Add sematic web to octopress with:
 - [http://schema.org/](http://schema.org/)
 - [Twitter Cards](https://dev.twitter.com/docs/cards)
 
+Checking tools:
+
+- https://developers.facebook.com/tools/debug
+- http://www.google.com/webmasters/tools/richsnippets
+- https://dev.twitter.com/docs/cards/validation/validator
+
 Usage
 -----
 
+Before using, you must install and configure this plugin first as description below.
 
+In every post you should provide "cover" meta post for an image to be displayed on facebook open
+graph and twitter cards when a post is shared.
+
+For better SEO, you should also include `description` and `keywords` meta post.
+
+Note: `author` meta post should be a twitter account to be mapped to twitter cards' author. This
+needs improvement.
 
 Requirements
 ------------
@@ -21,9 +35,21 @@ Requirements
 Installation
 ------------
 
+Download this project and copy its file contents from `source` directory into your octopress's
+`source` directory.
+
+Copy contents from `_config_semantic.yml` file into `_config.yml` file and make configuration.
+
 
 Configuration
 -------------
+
+On `_config.yml` you should provide:
+
+- `cover`: an image url. This image will be default displayed on every post, usually your logo, if
+  `cover` is not specified on a post.
+
+- `semantic_fb_app_id:` and `semantic_fb_admins:` are used for configuring facebook insights.
 
 
 Contributing
