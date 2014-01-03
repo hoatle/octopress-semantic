@@ -5,6 +5,6 @@
   <meta name="twitter:title" content="{{ title | strip_html }}" />
   <meta name="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
 {% if cover != empty %}
-  <meta name="twitter:image:src" content="{{ site.url }}{{ cover }}" />
+  <meta name="twitter:image:src" content="{{ cover }}" />
 {% endif %}
   <meta name="twitter:domain" content="{{ site.url }}" />
